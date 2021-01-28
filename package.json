@@ -1,0 +1,47 @@
+{
+  "name": "quasarpractice",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "author": "Ernest Kenneth <ernestkennethyoungsumarno@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "dev:pwa": "quasar dev -m pwa",
+    "dev:android": "quasar dev -m capacitor -T android",
+    "dev:ios": "quasar dev -m capacitor -T ios",
+    "dev:elec": "quasar dev -m electron",
+    "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa",
+    "build:android": "quasar build -m capacitor -T android",
+    "build:ios": "quasar build -m capacitor -T ios",
+    "build:elec": "quasar build -m electron"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "core-js": "^3.6.5",
+    "quasar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
