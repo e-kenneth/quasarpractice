@@ -52,17 +52,23 @@ import EssentialLink from 'components/EssentialLink.vue'
 const linksData = [
   
   {
-    title: 'home',
+    title: 'Home',
     caption: 'home',
     icon: 'home',
     link: '/#/'
   },
   {
-    title: 'todolist',
+    title: 'Todolist',
     caption: 'todolist',
     icon: 'list',
     link: '/#/todolist/'
-  }
+  },
+  {
+    title: 'Example',
+    caption: 'example',
+    icon: 'list',
+    link: '/#/example/'
+  },
 ];
 
 export default {

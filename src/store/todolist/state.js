@@ -1,6 +1,6 @@
 export default function () {
   return {
-    count:0,
-    text : 'abc',
+    count: 0,
+    text: 'abc',
   }
 }

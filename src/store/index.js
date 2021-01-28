@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import todolist from './todolist'
 
 // import example from './module-example'
+import todolist from './todolist'
 
 Vue.use(Vuex)
 
