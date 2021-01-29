@@ -69,6 +69,24 @@ const linksData = [
     icon: 'list',
     link: '/#/example/'
   },
+  {
+    title: 'Example List',
+    caption: 'example',
+    icon: 'list',
+    link: '/#/list/'
+  },
+  {
+    title: 'Example Button',
+    caption: 'example',
+    icon: 'list',
+    link: '/#/button/'
+  },
+  {
+    title: 'Example Button No Component',
+    caption: 'example',
+    icon: 'list',
+    link: '/#/buttonnocomponent/'
+  },
 ];
 
 export default {

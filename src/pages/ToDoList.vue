@@ -1,6 +1,7 @@
 <template>
   <div>
     <q-input v-model="text" label="Standard" />
+    {{$store.state.todolist.text}}
   </div>
 </template>
 

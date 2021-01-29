@@ -7,6 +7,9 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'todolist', component: () => import('pages/ToDoList.vue') },
       { path: 'example', component: () => import('pages/Example.vue') },
+      { path: 'list', component: () => import('pages/ExampleList.vue') },
+      { path: 'button', component: () => import('pages/ExampleButton.vue') },
+      { path: 'buttonnocomponent', component: () => import('pages/ExampleButtonNoComponent.vue') },
 
     ]
   },
